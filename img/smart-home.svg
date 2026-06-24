@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64" id="smart-home">
+  <defs>
+    <linearGradient id="a" x1=".9" x2="63.48" y1="65.817" y2="-.146" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff200"></stop>
+      <stop offset="1" stop-color="#cd118c"></stop>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="b" x1="-.512" x2="62.068" y1="64.477" y2="-1.486"></linearGradient>
+    <linearGradient xlink:href="#a" id="c" x1="-1.925" x2="60.655" y1="63.137" y2="-2.826"></linearGradient>
+    <linearGradient xlink:href="#a" id="d" x1="2.812" x2="65.392" y1="67.631" y2="1.668"></linearGradient>
+    <linearGradient xlink:href="#a" id="e" x1="6.614" x2="69.194" y1="71.238" y2="5.275"></linearGradient>
+    <linearGradient xlink:href="#a" id="f" x1="-.278" x2="62.302" y1="64.699" y2="-1.264"></linearGradient>
+    <linearGradient xlink:href="#a" id="g" x1="5.821" x2="68.401" y1="70.486" y2="4.523"></linearGradient>
+    <linearGradient xlink:href="#a" id="h" x1="5.875" x2="68.455" y1="70.537" y2="4.574"></linearGradient>
+  </defs>
+  <path fill="url(#a)" d="M45.171,16.171l1.414,1.414a2.048,2.048,0,0,1,2.829,0l1.414-1.414A4.1,4.1,0,0,0,45.171,16.171Z"></path>
+  <path fill="url(#b)" d="M42.343,13.343l1.414,1.414a6,6,0,0,1,8.485,0l1.414-1.414a8,8,0,0,0-11.313,0Z"></path>
+  <path fill="url(#c)" d="M48,9a9.934,9.934,0,0,1,7.071,2.929l1.414-1.414a12,12,0,0,0-16.97,0l1.414,1.414A9.932,9.932,0,0,1,48,9Z"></path>
+  <circle cx="48" cy="20" r="1" fill="url(#d)"></circle>
+  <path fill="url(#e)" d="M26,40.959V48a1,1,0,0,0,1,1H37a1,1,0,0,0,1-1V38a1,1,0,0,0-1-1H30.008a1,1,0,0,0-.7.287L26.3,40.246A1,1,0,0,0,26,40.959Zm2,.419L30.417,39H36v8H28Z"></path>
+  <circle cx="26" cy="37" r="1" fill="url(#f)"></circle>
+  <path fill="url(#g)" d="M61.51,28.14,56.15,25H60a1,1,0,0,0,1-1V3a1,1,0,0,0-1-1H36a1,1,0,0,0-1,1v9.6l-2.5-1.46a1.012,1.012,0,0,0-1.01,0l-29,17A1.012,1.012,0,0,0,2,29v4a1,1,0,0,0,1,1H6V61a1,1,0,0,0,1,1H57a1,1,0,0,0,1-1V34h3a1,1,0,0,0,1-1V29A1.012,1.012,0,0,0,61.51,28.14ZM37,4H59V23H37ZM60,32H57a1,1,0,0,0-1,1V60H8V33a1,1,0,0,0-1-1H4V29.57L32,13.16l3,1.75V24a1,1,0,0,0,1,1H52.2L60,29.57Z"></path>
+  <path fill="url(#h)" d="M47,44V42H42V39h4V37H42V34a1,1,0,0,0-1-1H38V29H36v4H33V28H31v5H28V29H26v4H23a1,1,0,0,0-1,1v3H18v2h4v3H17v2h5v3H18v2h4v3a1,1,0,0,0,1,1h3v4h2V53h3v5h2V53h3v4h2V53h3a1,1,0,0,0,1-1V49h4V47H42V44Zm-7,7H24V35H40Z"></path>
+</svg>
