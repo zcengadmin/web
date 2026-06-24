@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Zealcorps</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <a href="https://wa.me/+6584680665" class="whatsapp-float" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp"
+            class="whatsapp-icon">
+    </a>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+    <div class="container-fluid sticky-top px-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light px-4">
+            <a href="/index" class="navbar-brand p-0">
+                <img src="img/logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto pt-2 pt-lg-0">
+                    <a href="/index" class="nav-item nav-link active">
+                        <i class="fa fa-home"></i> Home
+                    </a>
+                    <a href="/about" class="nav-item nav-link">
+                        <i class="fa fa-info-circle"></i> About Us
+                    </a>
+                    <div class="nav-item dropdown">
+                        <a href="/service" class="nav-link dropdown-toggle" id="servicesDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-folder-open"></i> Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                            <li><a class="dropdown-item" href="/bms">
+                                    <i class="fa fa-building"></i> Integrated BMS
+                                </a>
+                            </li>
+                            <li><a class="dropdown-item" href="/homeautomation">
+                                    <i class="fa fa-home"></i> Home Automation
+                                </a>
+                            </li>
+                            <li><a class="dropdown-item" href="/industrial">
+                                    <i class="fa fa-industry"></i> Industrial & Process Automation
+                                </a>
+                            </li>
+                            <li><a class="dropdown-item" href="/energy">
+                                    <i class="fa fa-bolt"></i> Energy Management
+                                </a>
+                            </li>
+                            <li><a class="dropdown-item" href="/system">
+                                    <i class="fa fa-network-wired"></i> System Integrator
+                                </a>
+                            </li>
+                            <li><a class="dropdown-item" href="/upgrade">
+                                    <i class="fa fa-tools"></i> Upgrades & Expansions
+                                </a>
+                            </li>
+                            <li><a class="dropdown-item" href="/water">
+                                    <i class="fa fa-tint"></i> Water Management
+                                </a>
+                            </li>
+                            <li><a class="dropdown-item" href="/fire">
+                                    <i class="fa fa-fire-extinguisher"></i> Fire Alarm System
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Projects Dropdown -->
+                    <div class="nav-item dropdown">
+                        <a href="/project" class="nav-link dropdown-toggle" id="projectsDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-folder-open"></i> Projects
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="projectsDropdown">
+                            <li><a class="dropdown-item" href="/project">
+                                    <i class="fa fa-tasks"></i> Completed Projects
+                                </a>
+                            </li>
+                            <li><a class="dropdown-item" href="/ongoing-projects">
+                                    <i class="fa fa-spinner"></i> Ongoing Projects
+                                </a>
+                            </li>
+                            <li><a class="dropdown-item" href="/future-projects">
+                                    <i class="fa fa-lightbulb"></i> Future Projects
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="/contact" class="nav-item nav-link">
+                        <i class="fa fa-envelope"></i> Contact
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </nav>
+    </div>
+    <!-- Navbar & Hero End -->
+
+    <!-- Modal Search Start -->
+    <!-- Modal Search End -->
+
+    <!-- Carousel Start -->
+    <div class="container-fluid overflow-hidden px-0">
+        <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1s"
+                style="animation-delay: 1s;">
+                <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="First slide">
+                    <i class="bi bi-camera"></i>
+                </li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide">
+                    <i class="bi bi-heart"></i>
+                </li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide">
+                    <i class="bi bi-star"></i>
+                </li>
+
+                <!-- Add Bootstrap Icons CDN -->
+
+
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img src="img/carousel-1.jpg" class="img-fluid w-100" alt="First slide" />
+                    <div class="carousel-caption">
+                        <p class="text-uppercase fs-4 mb-0 fadeInUp animate__animated" data-animation="fadeInUp"
+                            data-delay="1s" style="animation-delay: 1s; color: #84DE02;">
+                            <b>Step into the Future of Smart Buildings</b>
+                        </p>
+                        <h1 class="display-1 text-capitalize text-white mb-4 fadeInUp animate__animated"
+                            data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">
+                            Revolutionizing Spaces with Intelligent Automation
+                        </h1>
+                        <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s"
+                            style="animation-delay: 1.5s;">
+                            At Zealcorps, we deliver state-of-the-art building automation solutions designed to elevate
+                            comfort, enhance safety, and maximize energy efficiency.
+                        </p>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn d-flex py-3 px-5 me-2 flex-shrink-0 fadeInUp animate__animated"
+                                data-animation="fadeInUp" data-delay="1.5s"
+                                style="animation-delay: 1.7s; background-color: #00BFFF; color: #fff;" href="#">Contact
+                                Us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel-2.jpg" class="img-fluid w-100" alt="Second slide" />
+                    <div class="carousel-caption">
+                        <p class="text-uppercase fs-4 mb-0 fadeInUp animate__animated" data-animation="fadeInUp"
+                            data-delay="1s" style="animation-delay: 1s; color: #84DE02;">
+                            <b>Building Efficiency Redefined</b>
+                        </p>
+                        <h1 class="display-1 text-capitalize text-white mb-4 fadeInUp animate__animated"
+                            data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">
+                            Maximized Performance, Minimized Costs
+                        </h1>
+                        <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s"
+                            style="animation-delay: 1.5s;">
+                            Seamlessly automate your heating, ventilation, air conditioning, and lighting systems with
+                            real-time control and scheduling capabilities.
+                        </p>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn d-flex py-3 px-5 me-2 flex-shrink-0 fadeInUp animate__animated"
+                                data-animation="fadeInUp" data-delay="1.5s"
+                                style="animation-delay: 1.7s; background-color: #00BFFF; color: #fff;" href="#">Contact
+                                Us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel-3.jpg" class="img-fluid w-100" alt="Third slide" />
+                    <div class="carousel-caption">
+                        <p class="text-uppercase fs-4 mb-0 fadeInUp animate__animated" data-animation="fadeInUp"
+                            data-delay="1s" style="animation-delay: 1s; color: #84DE02;">
+                            <b>Reliable Smart Security Solutions</b>
+                        </p>
+                        <h1 class="display-1 text-capitalize text-white mb-4 fadeInUp animate__animated"
+                            data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">
+                            Comprehensive Access Control, Surveillance & Alerts at Your Fingertips
+                        </h1>
+                        <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s"
+                            style="animation-delay: 1.5s;">
+                            Safeguard your property with advanced cameras, biometric access systems, and real-time
+                            notifications.
+                        </p>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn d-flex py-3 px-5 me-2 flex-shrink-0 fadeInUp animate__animated"
+                                data-animation="fadeInUp" data-delay="1.5s"
+                                style="animation-delay: 1.7s; background-color: #00BFFF; color: #fff;" href="#">Contact
+                                Us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel-4.jpg" class="img-fluid w-100" alt="Third slide" />
+                    <div class="carousel-caption">
+                        <p class="text-uppercase fs-4 mb-0 fadeInUp animate__animated" data-animation="fadeInUp"
+                            data-delay="1s" style="animation-delay: 1s; color: #84DE02;">
+                            <b>Streamlined Control with Our Integrated Building Management System (BMS)</b>
+                        </p>
+                        <h1 class="display-1 text-capitalize text-white mb-4 fadeInUp animate__animated"
+                            data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">
+                            One Platform for All Your Building Needs
+                        </h1>
+                        <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s"
+                            style="animation-delay: 1.5s;">
+                            Effortlessly monitor and manage all building operations—HVAC, lighting, security, and
+                            energy—from a single dashboard.
+                        </p>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn d-flex py-3 px-5 me-2 flex-shrink-0 fadeInUp animate__animated"
+                                data-animation="fadeInUp" data-delay="1.5s"
+                                style="animation-delay: 1.7s; background-color: #00BFFF; color: #fff;" href="#">Contact
+                                Us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel-3.jpg" class="img-fluid w-100" alt="Third slide" />
+                    <div class="carousel-caption">
+                        <p class="text-uppercase fs-4 mb-0 fadeInUp animate__animated" data-animation="fadeInUp"
+                            data-delay="1s" style="animation-delay: 1s; color: #84DE02;">
+                            <b>Partnered with Industry Leaders</b>
+                        </p>
+                        <h1 class="display-1 text-capitalize text-white mb-4 fadeInUp animate__animated"
+                            data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">
+                            Experience Our Innovations in Action
+                        </h1>
+                        <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s"
+                            style="animation-delay: 1.5s;">
+                            Dive into our portfolio showcasing completed and ongoing smart automation projects.
+                        </p>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn d-flex py-3 px-5 me-2 flex-shrink-0 fadeInUp animate__animated"
+                                data-animation="fadeInUp" data-delay="1.5s"
+                                style="animation-delay: 1.7s; background-color: #00BFFF; color: #fff;" href="#">Contact
+                                Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon btn-lg-square fadeInLeft animate__animated" aria-hidden="true"
+                    data-animation="fadeInLeft" data-delay="1.1s" style="animation-delay: 1.3s;">
+                    <i class="fas fa-chevron-left fa-2x"></i>
+                </span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                <span class="carousel-control-next-icon btn-lg-square fadeInRight animate__animated" aria-hidden="true"
+                    data-animation="fadeInRight" data-delay="1.1s" style="animation-delay: 1.3s;">
+                    <i class="fas fa-chevron-right fa-2x"></i>
+                </span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- About Start -->
+    <div class="container-fluid about py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.1s">
+                    <img src="img/automation-main.jpg" class="img-fluid w-100" alt="Building Automation">
+                </div>
+
+                <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.1s">
+                    <div class="about-item-content">
+                        <p class="text-uppercase" style="color: #00BFFF; font-size: 1.25rem; font-weight: bold;">
+                            Welcome to Zealcorps
+                        </p>
+                        <h2 class="mb-3">Smart Building Automation for the Future</h2>
+                        <p class="mb-4 fs-5">
+                            At Zealcorps, we deliver smart building automation solutions designed to create intelligent,
+                            efficient, and secure environments.
+                            Our expertise transforms traditional infrastructure into connected ecosystems—managing
+                            everything from HVAC, electrical, fire safety, plumbing, and sanitation to security and
+                            energy optimization.
+                        </p>
+                        <a href="/contact" class="btn btn-primary mt-3">Get in Touch</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About End -->
+
+    <!-- Features Start -->
+    <div class="container-fluid feature py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h2 class="display-4 text-capitalize mb-3" style="color: #84DE02;">Why Choose Us</h2>
+            </div>
+            <div class="row g-4">
+                <!-- HVAC Automation -->
+                <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="feature-item text-center border p-4">
+                        <div class="feature-img d-inline-flex p-3">
+                            <i class="fas fa-bolt" style="color: #00BFFF; font-size: 3rem;"></i>
+                        </div>
+                        <a href="#" class="h5 d-block my-3" style="color: #00BFFF;">HVAC Automation</a>
+                        <p class="mb-0" style="color: black;">Enhance comfort and efficiency with intelligent HVAC
+                            automation tailored for smart buildings.</p>
+                    </div>
+                </div>
+                <!-- Lighting & Energy Management -->
+                <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="feature-item text-center border p-4">
+                        <div class="feature-img d-inline-flex p-3">
+                            <i class="fas fa-lightbulb" style="color: #00BFFF; font-size: 3rem;"></i>
+                        </div>
+                        <a href="#" class="h5 d-block my-3" style="color: #00BFFF;">Lighting & Energy Management</a>
+                        <p class="mb-0" style="color: black;">Optimize energy usage and reduce operational costs with
+                            smart lighting and energy control systems.</p>
+                    </div>
+                </div>
+                <!-- Access Control & Security -->
+                <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="feature-item text-center border p-4">
+                        <div class="feature-img d-inline-flex p-3">
+                            <i class="fas fa-tools" style="color: #00BFFF; font-size: 3rem;"></i>
+                        </div>
+                        <a href="#" class="h5 d-block my-3" style="color: #00BFFF;">Access Control & Security</a>
+                        <p class="mb-0" style="color: black;">Ensure safety with robust access control systems and
+                            secure infrastructure tailored to your needs.</p>
+                    </div>
+                </div>
+                <!-- Smart Home & Office Solutions -->
+                <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="feature-item text-center border p-4">
+                        <div class="feature-img d-inline-flex p-3">
+                            <i class="fas fa-shield-alt" style="color: #00BFFF; font-size: 3rem;"></i>
+                        </div>
+                        <a href="#" class="h5 d-block my-3" style="color: #00BFFF;">Smart Home & Office Solutions</a>
+                        <p class="mb-0" style="color: black;">Integrate smart security, surveillance, and real-time
+                            monitoring for enhanced automation and safety.</p>
+                    </div>
+                </div>
+                <!-- IoT & Remote Monitoring -->
+                <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="feature-item text-center border p-4">
+                        <div class="feature-img d-inline-flex p-3">
+                            <i class="fas fa-wifi" style="color: #00BFFF; font-size: 3rem;"></i>
+                        </div>
+                        <a href="#" class="h5 d-block my-3" style="color: #00BFFF;">IoT & Remote Monitoring</a>
+                        <p class="mb-0" style="color: black;">Gain full control over your systems from anywhere through
+                            intelligent IoT-enabled monitoring solutions.</p>
+                    </div>
+                </div>
+                <!-- Customizable Automation Solutions -->
+                <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="feature-item text-center border p-4">
+                        <div class="feature-img d-inline-flex p-3">
+                            <i class="fas fa-cogs" style="color: #00BFFF; font-size: 3rem;"></i>
+                        </div>
+                        <a href="#" class="h5 d-block my-3" style="color: #00BFFF;">Customizable Automation
+                            Solutions</a>
+                        <p class="mb-0" style="color: black;">Get solutions tailored to your operational needs—scalable,
+                            flexible, and future-ready automation systems.</p>
+                    </div>
+                </div>
+                <!-- 24/7 Support & Maintenance -->
+                <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="feature-item text-center border p-4">
+                        <div class="feature-img d-inline-flex p-3">
+                            <i class="fas fa-headset" style="color: #00BFFF; font-size: 3rem;"></i>
+                        </div>
+                        <a href="#" class="h5 d-block my-3" style="color: #00BFFF;">24/7 Support & Maintenance</a>
+                        <p class="mb-0" style="color: black;">Enjoy round-the-clock technical support and proactive
+                            maintenance for uninterrupted operations.</p>
+                    </div>
+                </div>
+                <!-- Certified & Experienced Team -->
+                <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.9s">
+                    <div class="feature-item text-center border p-4">
+                        <div class="feature-img d-inline-flex p-3">
+                            <i class="fas fa-users" style="color: #00BFFF; font-size: 3rem;"></i>
+                        </div>
+                        <a href="#" class="h5 d-block my-3" style="color: #00BFFF;">Certified & Experienced Team</a>
+                        <p class="mb-0" style="color: black;">Work with a team of certified professionals equipped with
+                            years of experience in automation solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+    <!-- Fact Counter -->
+    <div class="container-fluid counter py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h2 class="display-4 text-capitalize mb-3" ;"> Our Remarkable Journey & Proven Excellence</h2>
+            </div>
+            <div class="container-fluid counter py-5">
+                <div class="container py-5">
+                    <div class="row g-4">
+                        <div class="col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                            <div class="counter-box text-center bg-dark text-white p-4 rounded-3 shadow">
+                                <i class="fas fa-heart fa-4x text-secondary"></i>
+                                <h4 class="text-white my-3">Years of Experience</h4>
+                                <div class="counter-counting">
+                                    <span class="fs-2 fw-bold text-white" data-toggle="counter-up">15</span>
+                                    <span class="h1 fw-bold text-secondary">+</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="counter-box text-center bg-dark text-white p-4 rounded-3 shadow">
+                                <i class="fas fa-thumbs-up fa-4x text-secondary"></i>
+                                <h4 class="text-white my-3">Completed Projects</h4>
+                                <div class="counter-counting">
+                                    <span class="fs-2 fw-bold text-white" data-toggle="counter-up">456</span>
+                                    <span class="h1 fw-bold text-secondary">+</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="counter-box text-center bg-dark text-white p-4 rounded-3 shadow">
+                                <i class="fas fa-users fa-4x text-secondary"></i>
+                                <h4 class="text-white my-3">Happy Customers</h4>
+                                <div class="counter-counting">
+                                    <span class="fs-2 fw-bold text-white" data-toggle="counter-up">513</span>
+                                    <span class="h1 fw-bold text-secondary">+</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="counter-box text-center bg-dark text-white p-4 rounded-3 shadow">
+                                <i class="fas fa-user fa-4x text-secondary"></i>
+                                <h4 class="text-white my-3">Qualified Engineers</h4>
+                                <div class="counter-counting">
+                                    <span class="fs-2 fw-bold text-white" data-toggle="counter-up">53</span>
+                                    <span class="h1 fw-bold text-secondary">+</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 text-center pt-4 wow fadeInUp" data-wow-delay="0.9s">
+                            <a class="btn btn-secondary py-3 px-5 rounded-pill shadow" href="/contact">Join With
+                                Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fact Counter -->
+
+        <!-- Projects Start -->
+        <div class="container-fluid project py-5" style="background-color: #f8f9fa;">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <p class="text-uppercase" style="color: #00BFFF; font-size: 1.2rem;">Our Recent Projects</p>
+                    <h2 class="display-4 text-capitalize mb-3" style="color: #84DE02;">Recent Building Automation
+                        Projects</h2>
+                </div>
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="project-item">
+                            <div class="row g-4">
+                                <div class="col-md-4">
+                                    <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class=" active">
+                                                <img src="img/project/meh-1.jpg" class="carousel-img" alt=""
+                                                    style="height: 10;">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="img/project/meh-1.jpg" class="carousel-img" alt="">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="img/project/meh-1.jpg" class="carousel-img" alt="">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="img/project/meh-1.jpg" class="carousel-img" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="project-content mb-4">
+                                        <p class="fs-5 text-secondary mb-2">Nurse Call System</p>
+                                        <a href="#" class="h4">Mount E Hospital</a>
+                                        <p class="mb-0 mt-3">
+                                            <b>Zealcorps</b> successfully completed the MEH Nurse Call – Main Job
+                                            project at
+                                            Level 4 - Paediatric Ward 4D.
+                                            This initiative aimed to enhance patient care and nurse response
+                                            efficiency
+                                            by
+                                            implementing an advanced nurse call system.
+                                        </p>
+                                    </div>
+                                    <a class="btn bantea py-2 px-4" href="meh_details">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="project-item">
+                            <div class="row g-4">
+                                <div class="col-md-4">
+                                    <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class=" active">
+                                                <img src="img/project/meh-2.jpg" class="carousel-img" alt=""
+                                                    style="height: 10;">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="img/project/meh-1.jpg" class="carousel-img" alt="">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="img/project/meh-1.jpg" class="carousel-img" alt="">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="img/project/meh-1.jpg" class="carousel-img" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="project-content mb-4">
+                                        <p class="fs-5 text-secondary mb-2">Thomson CC Project</p>
+                                        <a href="#" class="h4">Automation Systems</a>
+                                        <p class="mb-0 mt-3">
+                                            At <strong>Thomson CC Project</strong>, we successfully executed the
+                                            supply,
+                                            installation, and commissioning
+                                            of an advanced Building Management System (BMS) and electrical
+                                            infrastructure to enhance automation and
+                                            efficiency.
+                                        </p>
+                                    </div>
+                                    <a class="btn btn-primary bantea py-2 px-4" href="/thomson">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="project-item">
+                            <div class="row g-4">
+                                <div class="col-md-4">
+                                    <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class=" active">
+                                                <img src="img/project/meh-3.jpg" class="carousel-img" alt=""
+                                                    style="height: 10;">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="img/project/meh-1.jpg" class="carousel-img" alt="">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="img/project/meh-1.jpg" class="carousel-img" alt="">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="img/project/meh-1.jpg" class="carousel-img" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="project-content mb-4">
+                                        <p class="fs-5 text-secondary mb-2">Sentosa Site Project</p>
+                                        <a href="#" class="h4">EcoStruxure Building Operation SCADA</a>
+                                        <p class="mb-0 mt-3">
+                                            We specialize in the supply, installation, and optimization of
+                                            EcoStruxure
+                                            Building
+                                            Operation (EBO) SCADA systems to enhance building automation and
+                                            energy
+                                            efficiency
+                                        </p>
+                                    </div>
+                                    <a class="btn btn-primary bantea  px-4" href="/sentosa">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="project-item">
+                            <div class="row g-4">
+                                <div class="col-md-4">
+                                    <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class=" active">
+                                                <img src="img/project/police_guard/work8.jpg" class="carousel-img"
+                                                    alt="" style="height: 10;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="project-content mb-4">
+                                        <p class="fs-5 text-secondary mb-2">Police Coast Guard</p>
+                                        <a href="#" class="h4">BMS System - PSA Police Guard House</a>
+                                        <p class="mb-0 mt-3">
+                                            BMS Engineering and Trading Pte Ltd successfully supplied, installed,
+                                            and
+                                            commissioned a complete Building Management System (BMS) for the
+                                            PSA
+                                            Police Guard House using Schneider BMS for enhanced security,
+                                            energy
+                                            efficiency, and automation.
+                                        </p>
+                                    </div>
+                                    <a class="btn btn-primary  bantea  px-4" href="/sentosa">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Projects End -->
+
+        <!-- Testimonial Start -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4">Newsletter</h4>
+                        <p class="mb-3">Zealcorps has devised a lean methodology approach designed to tailor
+                            specifically to the client requests
+                            at affordable service costs, with competitive client-friendly pricing options. To lead
+                            with efficiency and embrace
+                            innovation to provide top notch services.</p>
+                        <div class="hkjkj">
+                            <button type="button" class="btn py-2 mt-2" onclick="window.location.href='/contact';">
+                                Contact Us
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4">Explore</h4>
+                        <a href="/index"><i class="fas fa-angle-right me-2"></i> Home</a>
+                        <a href="/service"><i class="fas fa-angle-right me-2"></i> Services</a>
+                        <a href="/about"><i class="fas fa-angle-right me-2"></i> About Us</a>
+                        <a href="/project"><i class="fas fa-angle-right me-2"></i> Latest Projects</a>
+                        <a href="/testimonial"><i class="fas fa-angle-right me-2"></i> testimonial</a>
+                        <a href="/contact"><i class="fas fa-angle-right me-2"></i> Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4">Our Services</h4>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> Building Automation Systems</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> Energy Management Solutions</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> Smart Lighting Control</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> HVAC Automation</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> Electrical System Upgrades</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> Fire & Safety Integration</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> IoT-Based Monitoring</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4">Contact Info</h4>
+                        <a href=""><i class="fa fa-map-marker-alt me-2"></i>421 Tagore Industrial Avenue
+                            Tagore 8, # 03-24,
+                            Singapore 787805</a>
+                        <a href=""><i class="fas fa-envelope me-2"></i> info@zealcorps.com</a>
+                        <a href=""><i class="fas fa-phone me-2"></i> +65 6334 1556</a>
+
+                        <div class="footer-btn d-flex align-items-center">
+                            <a class="btn btn-secondary btn-md-square me-2" href=""><i
+                                    class="fab fa-facebook-f text-white"></i></a>
+                            <a class="btn btn-secondary btn-md-square me-2" href=""><i
+                                    class="fab fa-twitter text-white"></i></a>
+                            <a class="btn btn-secondary btn-md-square me-2" href=""><i
+                                    class="fab fa-instagram text-white"></i></a>
+                            <a class="btn btn-secondary btn-md-square me-0" href=""><i
+                                    class="fab fa-linkedin-in text-white"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center text-white mt-4">
+                    &copy; <span id="currentYear"></span> Zealcorps. All Rights Reserved.
+                </div>
+
+                <script>
+                    document.getElementById("currentYear").textContent = new Date().getFullYear();
+                </script>
+
+            </div>
+        </div>
+        <!-- Footer End -->
+        <!--Start of Tawk.to Script-->
+        <script type="text/javascript">
+            var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+            (function () {
+                var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+                s1.async = true;
+                s1.src = 'https://embed.tawk.to/67c436e6a64185190fe282f8/1ilbqubai';
+                s1.charset = 'UTF-8';
+                s1.setAttribute('crossorigin', '*');
+                s0.parentNode.insertBefore(s1, s0);
+            })();
+        </script>
+        <!--End of Tawk.to Script-->
+        <script id="zsiqscript"
+            src="https://salesiq.zohopublic.in/widget?wc=siq1fb4558b28959949be2659070494b82bc8adb5fa37e86b0198a0a79876cd2055"
+            defer></script>
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="//code.tidio.co/YOUR-TIDIO-CHATBOT-CODE.js" async></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+        <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Zealcorps</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <a href="https://wa.me/+6584680665" class="whatsapp-float" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp"
+            class="whatsapp-icon">
+    </a>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid sticky-top px-0">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-light px-4">
+            <a href="/index" class="navbar-brand p-0">
+                <img src="img/logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto pt-2 pt-lg-0">
+                    <a href="/index" class="nav-item nav-link ">
+                        <i class="fa fa-home"></i> Home
+                    </a>
+                    <a href="/about" class="nav-item nav-link">
+                        <i class="fa fa-info-circle"></i> About Us
+                    </a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="servicesDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-folder-open"></i> Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                            <li><a class="dropdown-item" href="/bms">
+                                    <i class="fa fa-building"></i> Integrated BMS
+                                </a>
+                            </li>
+                            <li><a class="dropdown-item" href="/homeautomation">
+                                    <i class="fa fa-home"></i> Home Automation
+                                </a>
+                            </li>
+                            <li><a class="dropdown-item" href="/industrial">
+                                    <i class="fa fa-industry"></i> Industrial & Process Automation
+                                </a>
+                            </li>
+                            <li><a class="dropdown-item" href="/energy">
+                                    <i class="fa fa-bolt"></i> Energy Management
+                                </a>
+                            </li>
+                            <li><a class="dropdown-item" href="/system">
+                                    <i class="fa fa-network-wired"></i> System Integrator
+                                </a>
+                            </li>
+                            <li><a class="dropdown-item" href="/upgrade">
+                                    <i class="fa fa-tools"></i> Upgrades & Expansions
+                                </a>
+                            </li>
+                            <li><a class="dropdown-item" href="/water">
+                                    <i class="fa fa-tint"></i> Water Management
+                                </a>
+                            </li>
+                            <li><a class="dropdown-item" href="/fire">
+                                    <i class="fa fa-fire-extinguisher"></i> Fire Alarm System
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <!-- Projects Dropdown -->
+                    <div class="nav-item dropdown">
+                        <a href="/project" class="nav-link dropdown-toggle" id="projectDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-folder-open"></i> Projects
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="projectDropdown">
+                            <li><a class="dropdown-item" href="/project">
+                                    <i class="fa fa-tasks"></i> Completed Projects
+                                </a>
+                            </li>
+                            <li><a class="dropdown-item" href="/ongoing-projects">
+                                    <i class="fa fa-spinner"></i> Ongoing Projects
+                                </a>
+                            </li>
+                            <li><a class="dropdown-item" href="/future-projects">
+                                    <i class="fa fa-lightbulb"></i> Future Projects
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+
+
+                    
+                    <a href="/contact" class="nav-item nav-link active">
+                        <i class="fa fa-envelope"></i> Contact
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">    
+    </nav>
+    </div>
+    <!-- Navbar & Hero End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-breadcrumb">
+        <div class="container text-center py-5" style="max-width: 900px;">
+            <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Contact Us</h4>
+            <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                <li class="breadcrumb-item"><a href="/index">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                <li class="breadcrumb-item active text-secondary">Contact</li>
+            </ol>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- Contact Start -->
+    <div class="container-fluid contact bg-light py-5">
+        <div class="container py-5">
+            <div class="row g-5 mb-5">
+                <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="text-center mx-auto pb-5" style="max-width: 800px;">
+                        <p class="text-uppercase text-secondary fs-5 mb-0"><b>Let’s Connect</b></p>
+                        <h2 class="display-4 text-capitalize mb-3" style="color: #00BFFF;">Send Your Message</h2>
+                        <p class="mb-0">The contact form is currently inactive. Get a functional and working contact
+                            form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and
+                            you're done. <a class="text-primary fw-bold"></a>.
+                        </p>
+                    </div>
+                    <style>
+                        .custom-border {
+                            border: 2px solid #84DE02 !important;
+                        }
+                    </style>
+
+                    <form id="emailForm">
+                        <div class="row g-3">
+                            <div class="col-lg-12 col-xl-6">
+                                <div class="form-floating custom-border">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-xl-6">
+                                <div class="form-floating custom-border">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-xl-6">
+                                <div class="form-floating custom-border">
+                                    <input type="phone" class="form-control" id="phone" placeholder="Phone">
+                                    <label for="phone">Your Phone</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-xl-6">
+                                <div class="form-floating custom-border">
+                                    <input type="text" class="form-control" id="project" placeholder="Project">
+                                    <label for="project">Your Project</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating custom-border">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating custom-border">
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                        style="height: 160px"></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <style>
+                                .custom-btn {
+                                    background: linear-gradient(to right, #84DE02, #00BFFF);
+                                    border: none;
+                                    color: white;
+                                    /* Ensures text is visible */
+                                    font-weight: bold;
+                                    transition: 0.3s ease-in-out;
+                                }
+
+                                .custom-btn:hover {
+                                    background: linear-gradient(to right, #00BFFF, #84DE02);
+                                }
+                            </style>
+                            <div class="col-12">
+                                <button class="btn custom-btn w-100 py-3">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.4s">
+                    <div class="contact-map h-100 w-100">
+                        <iframe class="h-100 w-100" style="height: 500px;"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.653602773104!2d103.82463197477759!3d1.384464898602453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da17eebd1065f5%3A0xd73c6adec7b1d3a5!2sTagore%208!5e0!3m2!1sen!2sin!4v1744787616354!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-5">
+                <div class="col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="d-inline-flex bg-white w-100 custom-border p-4">
+                        <i class="fas fa-map-marker-alt fa-2x text-secondary me-4"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p class="mb-0">421 Tagore Industrial Avenue, Tagore 8 #03-24, Singapore 787805.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="d-inline-flex bg-white w-100 custom-border p-4">
+                        <i class="fas fa-envelope fa-2x text-secondary me-4"></i>
+                        <div>
+                            <h4>Mail Us</h4>
+                            <p class="mb-0">info@zealcorps.com</p>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="d-inline-flex bg-white w-100 custom-border p-4">
+                        <i class="fa fa-phone-alt fa-2x text-secondary me-4"></i>
+                        <div>
+                            <h4>Telephone</h4>
+                            <p class="mb-0">(+65 8874 1232)</p>
+                            <br><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+        <div class="row g-5">
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="text-white mb-4">Newsletter</h4>
+                    <p class="mb-3">Zealcorps has devised a lean methodology approach designed to tailor
+                        specifically to the client requests
+                        at affordable service costs, with competitive client-friendly pricing options. To lead
+                        with efficiency and embrace
+                        innovation to provide top notch services.</p>
+                        <div class="hkjkj">
+                            <button type="button" class="btn py-2 mt-2" onclick="window.location.href='/contact';">
+                                Contact Us
+                            </button>
+                        </div>                                
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="text-white mb-4">Explore</h4>
+                    <a href="/index"><i class="fas fa-angle-right me-2"></i> Home</a>
+                    <a href="/service"><i class="fas fa-angle-right me-2"></i> Services</a>
+                    <a href="/about"><i class="fas fa-angle-right me-2"></i> About Us</a>
+                    <a href="/project"><i class="fas fa-angle-right me-2"></i> Latest Projects</a>
+                    <a href="/testimonial"><i class="fas fa-angle-right me-2"></i> testimonial</a>
+                    <a href="/contact"><i class="fas fa-angle-right me-2"></i> Contact Us</a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="text-white mb-4">Our Services</h4>
+                    <a href="#"><i class="fas fa-angle-right me-2"></i> Building Automation Systems</a>
+                    <a href="#"><i class="fas fa-angle-right me-2"></i> Energy Management Solutions</a>
+                    <a href="#"><i class="fas fa-angle-right me-2"></i> Smart Lighting Control</a>
+                    <a href="#"><i class="fas fa-angle-right me-2"></i> HVAC Automation</a>
+                    <a href="#"><i class="fas fa-angle-right me-2"></i> Electrical System Upgrades</a>
+                    <a href="#"><i class="fas fa-angle-right me-2"></i> Fire & Safety Integration</a>
+                    <a href="#"><i class="fas fa-angle-right me-2"></i> IoT-Based Monitoring</a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="text-white mb-4">Contact Info</h4>
+                    <a href=""><i class="fa fa-map-marker-alt me-2"></i>421 Tagore Industrial Avenue, Tagore 8 #03-24, Singapore 787805.</a>
+                    <a href=""><i class="fas fa-envelope me-2"></i> info@zealcorps.com</a>
+                    <a href=""><i class="fas fa-phone me-2"></i> +65 6334 1556</a>
+                    
+                    <div class="footer-btn d-flex align-items-center">
+                        <a class="btn btn-secondary btn-md-square me-2" href=""><i
+                                class="fab fa-facebook-f text-white"></i></a>
+                        <a class="btn btn-secondary btn-md-square me-2" href=""><i
+                                class="fab fa-twitter text-white"></i></a>
+                        <a class="btn btn-secondary btn-md-square me-2" href=""><i
+                                class="fab fa-instagram text-white"></i></a>
+                        <a class="btn btn-secondary btn-md-square me-0" href=""><i
+                                class="fab fa-linkedin-in text-white"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center text-white mt-4">
+                &copy; <span id="currentYear"></span> Zealcorps. All Rights Reserved.
+            </div>
+            
+            <script>
+                document.getElementById("currentYear").textContent = new Date().getFullYear();
+            </script>
+            
+        </div>
+</div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+
+
+    <!-- JavaScript Libraries -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

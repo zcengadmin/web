@@ -1,0 +1,33 @@
+{
+  "rewrites": [
+    { "source": "/index", "destination": "/index.html" },
+    { "source": "/home", "destination": "/home.html" },
+    { "source": "/about", "destination": "/about.html" },
+    { "source": "/services", "destination": "/services.html" },
+    { "source": "/bms", "destination": "/bms.html" },
+    { "source": "/homeautomation", "destination": "/homeautomation.html" },
+    { "source": "/industrial", "destination": "/industrial.html" },
+    { "source": "/energy", "destination": "/energy.html" },
+    { "source": "/system", "destination": "/system.html" },
+    { "source": "/upgrade", "destination": "/upgrade.html" },
+    { "source": "/water", "destination": "/water.html" },
+    { "source": "/fire", "destination": "/fire.html" },
+    { "source": "/project", "destination": "/project.html" },
+    { "source": "/ongoing-projects", "destination": "/ongoing-projects.html" },
+    { "source": "/future-projects", "destination": "/future-projects.html" },
+    { "source": "/webdesign", "destination": "/webdesign.html" },
+    { "source": "/trading", "destination": "/trading.html" },
+    { "source": "/videography", "destination": "/videography.html" },
+    { "source": "/digitalmarket", "destination": "/digitalmarket.html" },
+    { "source": "/cloudhosting", "destination": "/cloudhosting.html" },
+    { "source": "/powerpoint", "destination": "/powerpoint.html" },
+    { "source": "/logodesign", "destination": "/logodesign.html" },
+    { "source": "/webhosting", "destination": "/webhosting.html" },
+    { "source": "/events", "destination": "/events.html" },
+    { "source": "/contact", "destination": "/contact.html" },
+    { "source": "/meh_details", "destination": "/meh_details.html" },
+    { "source": "/thomson", "destination": "/thomson.html" },
+    { "source": "/sentosa", "destination": "/sentosa.html" },
+    { "source": "/police_guard", "destination": "/police_guard.html" }
+  ]
+}
